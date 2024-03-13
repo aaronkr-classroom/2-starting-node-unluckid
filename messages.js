@@ -1,17 +1,15 @@
-// numbers.js
+// messages.js
 "use strict";
 
-// @TODO: 10개의 숫자로 배열 만들기
-let numbers= [1,2,3,4,5,6,7,8,9,10];
-// @TODO: printNumbers 함수를 만들어 주세요.
-let printNumbers;
-printNumbers= function(numbers) {
-  for (let count = 0; count<numbers.length; count++){
-  console.log(numbers[count]);
-    }
+// @TODO: 3개의 문자열 messages 배열 만들어 주세요.
+let messages = ["안녕", "하루", "커피"];
+// @TODO: messages 배열에서 각 메시지를 인쇄하는 함수를 만들어 주세요.
+let printMsgs;
+printMsgs = function(messages) {
+  for (let count = 0; count <= messages.lenth; count++) {
+    console.log(messages[count]);
+  }
 };
-
-
 
 
 
