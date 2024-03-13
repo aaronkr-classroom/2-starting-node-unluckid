@@ -6,7 +6,7 @@ let messages = ["안녕", "하루", "커피"];
 // @TODO: messages 배열에서 각 메시지를 인쇄하는 함수를 만들어 주세요.
 let printMsgs;
 printMsgs = function(messages) {
-  for (let count = 0; count <= messages.length; count++) {
+  for (let count = 0; count <= messages.length-1; count++) {
     console.log(messages[count]);
   }
 };
