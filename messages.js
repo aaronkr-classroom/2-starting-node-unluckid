@@ -10,7 +10,7 @@ printNumbers= function(numbers) {
   console.log(numbers[count]);
     }
 };
-printNumbers(numbers);
+
 
 
 
